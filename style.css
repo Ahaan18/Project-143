@@ -1,0 +1,28 @@
+.heading{
+    width:100%;
+    text-align:left;
+}
+.heading h3{
+    display:inline;
+}
+.heading button{
+    float:right;
+    border:1px solid white;
+}
+canvas{
+    animation-name: canv1as;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    border: 2px solid white;
+   border-radius: 10px;
+   margin-top:130px;
+}
+@keyframes canv1as{
+    from{
+        border: 5px solid green;
+    }
+    to{
+        border: 15px solid purple;
+    }
+    }
